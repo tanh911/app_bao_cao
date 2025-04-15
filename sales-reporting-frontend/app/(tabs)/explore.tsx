@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StyleSheet, Image, Platform } from "react-native";
 
 import { Collapsible } from "@/components/Collapsible";
@@ -41,3 +42,24 @@ export default function TabWeek() {
     />
   );
 }
+=======
+import { StyleSheet, Image, Platform } from "react-native";
+
+import React from "react";
+export default function TabTwoScreen() {
+  return <></>;
+}
+
+const styles = StyleSheet.create({
+  headerImage: {
+    color: "#808080",
+    bottom: -90,
+    left: -35,
+    position: "absolute",
+  },
+  titleContainer: {
+    flexDirection: "row",
+    gap: 8,
+  },
+});
+>>>>>>> 976bf813438438138bc6bc26d477b591452637b5
